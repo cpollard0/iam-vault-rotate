@@ -1,0 +1,8 @@
+.vagrant
+vault_password_file
+testing.txt
+ansible.cfg
+tests
+build
+iam_vault_rotate.egg-info
+dist

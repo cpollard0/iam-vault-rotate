@@ -1,0 +1,5 @@
+boto3
+ansible_vault
+ruamel.yaml
+ansible
+pylint
