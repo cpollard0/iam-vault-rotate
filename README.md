@@ -5,7 +5,7 @@
 In our automation, we have IAM service accounts that are associated with Ansible solutions.  We store the credentials for these
 accounts in the ansible solution using Ansible vault to encrypt secrets. These service accounts are
 highly privileged and need to conform to our password rotation policy. There is a service account per AWS environment, meaning
-an individual application can have up to 5 service accounts. The overhead burden on rotating these credentials has historically
+an individual application having lots of service accounts. The overhead burden on rotating these credentials has historically
 led to service accounts having an exception from the password expiration policy. As we move to AWS, we want to get away from that.
 
 This utility is a simple utility that rotates a users credentials within an ansible solution.
